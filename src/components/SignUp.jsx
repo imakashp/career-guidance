@@ -3,6 +3,7 @@ import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { doc, setDoc } from 'firebase/firestore';
 import { auth, db } from '../firebase';
 import './SignUp.css';
+import { Link } from 'react-router-dom';
 
 function SignUp() {
   const [email, setEmail] = useState('');
@@ -79,6 +80,9 @@ function SignUp() {
         {success && <p className="success">{success}</p>}
         <button type="submit">Sign Up</button>
       </form>
+      <p>
+        Already have an account? <Link to="/login">Log in here</Link>
+      </p>
     </div>
   );
 }
