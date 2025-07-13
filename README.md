@@ -1,3 +1,19 @@
+# Career Guidance Web App
+
+A web application to help students choose colleges based on entrance exam results, eligibility criteria, and preferences.
+
+## Setup Instructions
+1. Clone the repository: `git clone https://github.com/your-username/career-guidance.git`
+2. Install dependencies: `npm install`
+3. Configure Firebase with your credentials in `src/firebase.js`.
+4. Run the app: `npm run dev`
+
+## Project Workflow
+- Frontend: React, Tailwind CSS, React Router
+- Backend: Firebase (Authentication, Firestore)
+- Deployment: Firebase Hosting
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
