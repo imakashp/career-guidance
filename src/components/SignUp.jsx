@@ -33,8 +33,12 @@ function SignUp() {
       setPassword('');
       setName('');
     } catch (err) {
-      setError(err.message);
-      console.error(`Sign-up failed: ${err.message}`);
+      console.error(`Sign-up failed: ${err.code} - ${err.message}`);
+      if (err.code === 'auth/email-already-in-use') {
+        setError('This email is already registered. Please log in or use a different email.');
+      } else {
+        setError(err.message);
+      }
       setSuccess(null);
     }
   };
@@ -68,7 +72,7 @@ function SignUp() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            minLength={6} // Firebase requires passwords to be at least 6 characters
+            minLength={6}
           />
         </div>
         {error && <p className="error">{error}</p>}
