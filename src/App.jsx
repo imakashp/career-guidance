@@ -4,6 +4,7 @@ import SignUp from './components/SignUp';
 import CollegeSignUp from './components/CollegeSignUp';
 import CareerSelection from './components/CareerSelection';
 import LocationSelection from './components/LocationSelection';
+import CollegeList from './components/CollegeList';
 
 function App() {
   console.log('App component rendered');
@@ -16,6 +17,7 @@ function App() {
         <Route path="/college-signup" element={<CollegeSignUp />} />
         <Route path="/career-selection" element={<CareerSelection />} />
         <Route path="/location-selection" element={<LocationSelection />} />
+        <Route path="/college-list" element={<CollegeList />} />
       </Routes>
     </BrowserRouter>
   );
