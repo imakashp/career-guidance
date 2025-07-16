@@ -7,6 +7,7 @@ import LocationSelection from './components/LocationSelection';
 import CollegeList from './components/CollegeList';
 import CollegeSelection from './components/CollegeSelection';
 import CollegeRegistration from './components/CollegeRegistration';
+import StudentDetails from './components/StudentDetails';
 
 function App() {
   console.log('App component rendered');
@@ -22,6 +23,7 @@ function App() {
         <Route path="/college-list" element={<CollegeList />} />
         <Route path="/college-selection" element={<CollegeSelection />} />
         <Route path="/college-registration" element={<CollegeRegistration />} />
+        <Route path="/student-details" element={<StudentDetails />} />
       </Routes>
     </BrowserRouter>
   );
