@@ -1,0 +1,51 @@
+.manage-colleges-container { display: flex; gap: 2rem; max-width: 1200px; margin: 2rem auto; padding: 2rem; }
+.add-college-form { flex: 1; }
+.add-college-form form { display: flex; flex-direction: column; gap: 1rem; background: white; padding: 1.5rem; border-radius: 8px; }
+.checkbox-group { display: flex; flex-direction: column; gap: 0.5rem; }
+.existing-colleges-list { flex: 1; background: white; padding: 1.5rem; border-radius: 8px; }
+.existing-colleges-list ul { list-style: none; padding: 0; }
+.existing-colleges-list li { padding: 0.5rem; border-bottom: 1px solid #eee; }
+
+/* ... existing styles ... */
+
+.college-form-section {
+  flex: 1;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.existing-colleges-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border-bottom: 1px solid #eee;
+}
+
+.college-actions button {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.college-actions .delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.college-actions .delete-btn:hover {
+  background-color: #c82333;
+}
+
+.cancel-btn {
+  background-color: #6c757d;
+  margin-top: 0.5rem;
+}
+
+.cancel-btn:hover {
+  background-color: #5a6268;
+}

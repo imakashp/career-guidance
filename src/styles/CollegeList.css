@@ -65,3 +65,10 @@ input {
   color: red;
   margin-bottom: 15px;
 }
+
+/* ... existing styles ... */
+.user-info-bar { display: flex; justify-content: space-around; background: #e9ecef; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; }
+.filters { display: flex; gap: 1rem; margin-bottom: 1.5rem; }
+.filters input { flex: 1; padding: 0.8rem; border-radius: 4px; border: 1px solid #ccc; }
+.college-card .details-link { display: block; margin-top: 1rem; padding: 0.5rem; background-color: #007bff; color: white; text-align: center; border-radius: 4px; text-decoration: none; }
+.college-card .details-link:hover { background-color: #0056b3; }

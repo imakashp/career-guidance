@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
      import { BrowserRouter } from 'react-router-dom';
-     import CollegeRegistration from './CollegeRegistration';
+     import CollegeRegistration from './student/CollegeRegistration';
 
      // Mock Firebase auth and Firestore
      jest.mock('../firebase', () => ({

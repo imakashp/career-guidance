@@ -1,0 +1,7 @@
+.college-details-container { max-width: 800px; margin: 2rem auto; background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+.college-header { text-align: center; margin-bottom: 2rem; }
+.details-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+.detail-card { background-color: #f8f9fa; padding: 1rem; border-radius: 4px; text-align: center; }
+.detail-card h4 { margin-bottom: 0.5rem; color: #6c757d; }
+.select-college-btn { display: block; width: 100%; padding: 1rem; font-size: 1.2rem; background-color: #28a745; color: white; border: none; border-radius: 4px; cursor: pointer; text-align: center; }
+.select-college-btn:hover { background-color: #218838; }

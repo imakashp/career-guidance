@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
      import { collection, getDocs } from 'firebase/firestore';
      import { doc, getDoc, updateDoc } from 'firebase/firestore';
-     import { auth, db } from '../firebase';
+     import { auth, db } from '../firebase/firebase';
      import { onAuthStateChanged } from 'firebase/auth';
      import { useNavigate } from 'react-router-dom';
      import './CollegeSelection.css';
