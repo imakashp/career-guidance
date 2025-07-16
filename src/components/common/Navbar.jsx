@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { auth } from '../../firebase/firebase';
-import './Navbar.css';
+import '../../styles/Navbar.css';
 
 function Navbar() {
   const handleLogout = () => {

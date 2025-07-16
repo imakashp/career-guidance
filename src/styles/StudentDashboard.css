@@ -1,0 +1,48 @@
+.student-dashboard-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f4f7f6; /* A slightly off-white background */
+}
+
+.student-dashboard-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.dashboard-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-left: 5px solid transparent; /* For a nice accent on hover */
+}
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  border-left-color: #3498db; /* Blue accent on hover */
+}
+
+.dashboard-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: #3498db;
+  font-size: 1.4rem;
+}
+
+.dashboard-card p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.5;
+}

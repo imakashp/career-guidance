@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { doc, setDoc } from 'firebase/firestore';
-import { auth, db } from '../firebase';
-import './SignUp.css';
+import { auth, db } from '../../firebase/firebase';
+import '../../styles/SignUp.css';
 import { Link } from 'react-router-dom';
 
 function SignUp() {

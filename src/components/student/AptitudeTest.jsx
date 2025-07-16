@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { doc, updateDoc } from 'firebase/firestore';
 import { auth, db } from '../../firebase/firebase';
-import './AptitudeTest.css';
+import '../../styles/AptitudeTest.css';
 
 const questions = [
   {

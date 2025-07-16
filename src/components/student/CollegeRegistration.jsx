@@ -3,7 +3,7 @@ import { doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from '../../firebase/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-import './CollegeRegistration.css';
+import '../../styles/CollegeRegistration.css';
 
 function CollegeRegistration() {
   const [userData, setUserData] = useState(null);

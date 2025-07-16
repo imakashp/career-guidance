@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { collection, addDoc, getDocs, doc, updateDoc, deleteDoc } from 'firebase/firestore';
 import { db } from '../../firebase/firebase';
-import './ManageColleges.css';
+import '../../styles/ManageColleges.css';
 
 function ManageColleges() {
   const [colleges, setColleges] = useState([]);

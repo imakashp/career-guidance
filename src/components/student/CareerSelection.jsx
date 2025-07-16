@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { doc, updateDoc } from 'firebase/firestore';
-import { auth, db } from '../firebase';
+import { auth, db } from '../../firebase/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-import './CareerSelection.css';
+import '../../styles/CareerSelection.css';
 
 function CareerSelection() {
   const [career, setCareer] = useState('');

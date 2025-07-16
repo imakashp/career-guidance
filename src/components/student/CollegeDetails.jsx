@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { doc, getDoc, updateDoc } from 'firebase/firestore';
 import { db, auth } from '../../firebase/firebase';
-import './CollegeDetails.css';
+import '../../styles/CollegeDetails.css';
 
 function CollegeDetails() {
   const { collegeId } = useParams();

@@ -3,7 +3,7 @@ import { doc, getDoc } from 'firebase/firestore';
 import { auth, db } from '../../firebase/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { useNavigate } from 'react-router-dom';
-import './StudentDashboard.css';
+import '../../styles/StudentDashboard.css';
 
 function StudentDashboard() {
   const [userData, setUserData] = useState(null);

@@ -3,7 +3,7 @@ import { collection, getDocs, doc, getDoc } from 'firebase/firestore';
 import { auth, db } from '../../firebase/firebase';
 import { onAuthStateChanged } from 'firebase/auth';
 import { useNavigate, Link } from 'react-router-dom';
-import './CollegeList.css';
+import '../../styles/CollegeList.css';
 
 function CollegeList() {
   const [colleges, setColleges] = useState([]);
